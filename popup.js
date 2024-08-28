@@ -32,7 +32,7 @@ function displayFavorites() {
       listItem.appendChild(link);
 
       const removeButton = document.createElement('button');
-      removeButton.textContent = 'Remove';
+      removeButton.textContent = 'x';
       removeButton.className = 'remove-btn';
       removeButton.addEventListener('click', () => {
         removeFavorite(index);
